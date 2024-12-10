@@ -1,0 +1,30 @@
+.container{
+    width: 1300px;
+    height: 4000px;
+    display: flex;
+    justify-content: space-around;
+}
+.grandfather{
+    width: 400px;
+    height: 500px;
+}
+.img-grandfather{
+    width: 400px;
+    height: 400px;
+}
+.gpn{
+    font-size: 50px;
+    margin-left: 100px;
+}
+.grandmother{
+    width: 400px;
+    height: 500px;
+}
+.img-grandmother{
+    width: 400px;
+    height: 400px;
+}
+.gmn{
+    font-size: 50px;
+    margin-left: 130px;
+}
