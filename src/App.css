@@ -18,9 +18,25 @@
     width: 150px;
     height: 140px;
     margin-left: 50px;
-
 }
 .img-grandmother{
+    width: 150px;
+    height: 140px;
+}
+.father{
+    width: 150px;
+    height: 140px;
+}
+.img-father{
+    width: 150px;
+    height: 140px;
+}
+.mother{
+    width: 150px;
+    height: 140px;
+    margin-left: 50px;
+}
+.img-mother{
     width: 150px;
     height: 140px;
 }

@@ -20,6 +20,20 @@ const Home = () => {
                 </Link>
                 <h6>Токжан</h6>
             </div>
+
+            <div>
+                <Link to={'/Father'}>
+                <img className='img-father' src={black} alt=""/>
+                </Link>
+                <h6>Мурсалбек</h6>
+            </div>
+
+            <div>
+                <Link to={'/Mother'} >
+                <img className='img-mother' src={black} alt="" />
+                </Link>
+                <h6>Батыргул</h6>
+            </div>
         </div>
     );
 }
