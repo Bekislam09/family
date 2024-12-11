@@ -1,30 +1,24 @@
 .container{
-    width: 1080px;
+    width: 900px;
     margin: 0 auto;
     display: flex;
     text-align: center;
 }
 .grandfather{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 140px;
 }
 .img-grandfather{
-    width: 110px;
-    height: 100px;
+    width: 150px;
+    height: 140px;
 }
 .grandmother{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 140px;
     margin-left: 60px;
 
 }
 .img-grandmother{
-    width: 110px;
-    height: 100px;
-}
-@media screen and (max-width: 576px) {
-    .container{
-        max-width: 576px;
-    }
-    
+    width: 150px;
+    height: 140px;
 }
