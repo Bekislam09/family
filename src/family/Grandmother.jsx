@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import black from '../images/grandmother.jpg'
+import black from '../images/black.jpg'
 import './Grandmother.css'
 
 const Grandmother = () => {

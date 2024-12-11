@@ -1,10 +1,12 @@
 #img-gfather{
-    width: 600px;
-    height: 550px;
+    width: 120px;
+    height: 110px;
 }
 #gfather{
     text-align: center;
     font-size: 40px;
+    font-size: 10px;
+
 }
 #btn{
     width: 150px;
