@@ -1,12 +1,14 @@
 .container{
-    width: 900px;
+    width: 450px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-around;
     text-align: center;
 }
 .grandfather{
     width: 150px;
     height: 140px;
+    
 }
 .img-grandfather{
     width: 150px;
