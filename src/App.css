@@ -1,19 +1,19 @@
 .container{
     width: 400px;
-    width: 800px;
+    height: 800px;
     text-align: center;
 }
 .cards{
     display: flex;
 }
 .grandfather{
+    position: absolute;
     width: 150px;
     height: 140px;
-    
 }
 .img-grandfather{
-    width: 150px;
-    height: 140px;
+    width: 170px;
+    height: 160px;
 }
 .grandmother{
     width: 150px;
@@ -21,18 +21,19 @@
     margin-left: 50px;
 }
 .img-grandmother{
-    width: 150px;
-    height: 140px;
+    width: 170px;
+    height: 160px;
 }
 .father{
     width: 150px;
     height: 140px;
     position: absolute;
     margin-top: 250px;
+
 }
 .img-father{
-    width: 150px;
-    height: 140px;
+    width: 170px;
+    height: 160px;
 }
 .mother{
     width: 150px;
@@ -42,8 +43,8 @@
     position: absolute;
 }
 .img-mother{
-    width: 150px;
-    height: 140px;
+    width: 170px;
+    height: 160px;
 }
 .father{
     width: 150px;
