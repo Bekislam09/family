@@ -35,6 +35,11 @@ const Home = () => {
                     </Link>
                     <h6>Батыргул</h6>
                 </div>
+                <div className='bekislam'>
+                    <Link to={'/Bekislam'}>
+                    <img src={black} alt=""/>
+                    </Link>
+                </div>
             </div>
         </div>
     );
