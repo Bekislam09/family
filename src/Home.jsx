@@ -7,32 +7,34 @@ import './App.css'
 const Home = () => {
     return (
         <div className='container' >
-            <div className='Grandfather' >
-                <Link to={'/Grandfather'} >
-                <img className='img-grandfather' src={black} alt="" />
-                </Link>
-                <h6>Абдылда</h6>
-            </div> 
+            <div className='cards' >
+                <div className='Grandfather' >
+                    <Link to={'/Grandfather'} >
+                    <img className='img-grandfather' src={black} alt="" />
+                    </Link>
+                    <h6>Абдылда</h6>
+                </div> 
 
-            <div className='grandmother' >
-                <Link to={'/Grandmother'} >
-                <img className='img-grandmother' src={black} alt="" />
-                </Link>
-                <h6>Токжан</h6>
-            </div>
+                <div className='grandmother' >
+                    <Link to={'/Grandmother'} >
+                    <img className='img-grandmother' src={black} alt="" />
+                    </Link>
+                    <h6>Токжан</h6>
+                </div>
 
-            <div>
-                <Link to={'/Father'}>
-                <img className='img-father' src={black} alt=""/>
-                </Link>
-                <h6>Мурсалбек</h6>
-            </div>
+                <div className='father' >
+                    <Link to={'/Father'}>
+                    <img className='img-father' src={black} alt=""/>
+                    </Link>
+                    <h6>Мурсалбек</h6>
+                </div>
 
-            <div>
-                <Link to={'/Mother'} >
-                <img className='img-mother' src={black} alt="" />
-                </Link>
-                <h6>Батыргул</h6>
+                <div className='mother' >
+                    <Link to={'/Mother'} >
+                    <img className='img-mother' src={black} alt="" />
+                    </Link>
+                    <h6>Батыргул</h6>
+                </div>
             </div>
         </div>
     );

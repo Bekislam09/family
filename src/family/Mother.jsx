@@ -1,10 +1,11 @@
-import React, { use } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import black from '../images/black.jpg'
 import './Mother.css'
 
 const Mother = () => {
-    navigate = useNavigate();
+    const navigate = useNavigate();
+
     return (
         <div id='mother' >
             <img id='img-mother' src={black} alt="" />

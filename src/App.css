@@ -1,10 +1,10 @@
 .container{
-    width: 420px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
+    width: 400px;
+    width: 800px;
     text-align: center;
-    width: 40%;
+}
+.cards{
+    display: flex;
 }
 .grandfather{
     width: 150px;
@@ -27,6 +27,8 @@
 .father{
     width: 150px;
     height: 140px;
+    position: absolute;
+    margin-top: 250px;
 }
 .img-father{
     width: 150px;
@@ -35,9 +37,19 @@
 .mother{
     width: 150px;
     height: 140px;
-    margin-left: 50px;
+    margin-left: 200px;
+    margin-top: 250px;
+    position: absolute;
 }
 .img-mother{
+    width: 150px;
+    height: 140px;
+}
+.father{
+    width: 150px;
+    height: 140px;
+}
+.mother{
     width: 150px;
     height: 140px;
 }
