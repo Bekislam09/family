@@ -10,9 +10,9 @@ const Grandmother = () => {
     return (
         <div id='gmother' >
             <img id='img-gmother' src={black} alt="" />            
-            <h1>Токжан</h1>
-            <h2>Дата Рождения: 1963:09:19</h2>
-            <h4>Описание отсутсвует</h4>
+            <h1 style={{fontSize: '40px'}} >Токжан</h1>
+            <h2 style={{fontSize: '26px'}} >Дата Рождения: 1963:09:19</h2>
+            <h1>Описание отсутсвует</h1>
             <button id='btn' onClick={() =>{
                 navigate(-1)
             }}>Назад</button>

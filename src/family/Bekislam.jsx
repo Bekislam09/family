@@ -9,9 +9,9 @@ const Bekislam = () => {
     return (
         <div id='bekislam' >
             <img id='img-bekislam' src={black} alt="" />
-            <h1>Бекислам</h1>
-            <h2>Дата Рождения: 2009:05:14</h2>
-            <h4>Описание:отсутсвует</h4>
+            <h1 style={{fontSize: '40px'}} >Бекислам</h1>
+            <h2 style={{fontSize: '26px'}} >Дата Рождения: 2009:05:14</h2>
+            <h1>Описание:отсутсвует</h1>
             <button id='btn' onClick={() =>{
                 navigate(-1)
             }}>Назад</button>

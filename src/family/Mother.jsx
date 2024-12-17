@@ -9,9 +9,9 @@ const Mother = () => {
     return (
         <div id='mother' >
             <img id='img-mother' src={black} alt="" />
-            <h1>Батыргул</h1>
-            <h2>Дата Рождения: 1984:08:24</h2>
-            <h4>Описание:отсутсвует</h4>
+            <h1 style={{fontSize: '40px'}} >Батыргул</h1>
+            <h2 style={{fontSize: '26px'}} >Дата Рождения: 1984:08:24</h2>
+            <h1>Описание:отсутсвует</h1>
             <button id='btn' onClick={() =>{
                 navigate(-1)
             }}>Назад</button>
