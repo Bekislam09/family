@@ -7,6 +7,7 @@ import './App.css'
 const Home = () => {
     return (
         <div className='container' >
+            <h2>Добро Пожаловать в Мою Семью!</h2>
             <div className='cards' >
                 <div className='Grandfather' >
                     <Link to={'/Grandfather'} >
@@ -46,6 +47,19 @@ const Home = () => {
                     <img className='img-indira' src={black} alt="" />
                     </Link>
                     <h4>Индира</h4>
+                </div>
+
+                <div className='bayastan' >
+                    <Link to={'/Bayastan'} >
+                    <img className='img-bayastan' src={black} alt="" />
+                    </Link>
+                    <h4>Баястан</h4>
+                </div>
+                <div className='sabina' >
+                    <Link to={'/Sabina'} >
+                    <img className='img-sabina' src={black} alt="" />
+                    </Link>
+                    <h4>Сабина</h4>
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ const Grandmother = () => {
         <div id='gmother' >
             <img id='img-gmother' src={black} alt="" />            
             <h1>Токжан</h1>
-            <h2>Дата Рождения: 0000:00:00</h2>
+            <h2>Дата Рождения: 1963:09:19</h2>
             <h4>Описание отсутсвует</h4>
             <button id='btn' onClick={() =>{
                 navigate(-1)

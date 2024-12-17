@@ -6,6 +6,8 @@ import Mother from "./family/Mother";
 import Father from "./family/Father";
 import Bekislam from "./family/Bekislam";
 import Indira from "./family/Indira";
+import Bayastan from "./family/Bayastan";
+import Sabina from "./family/Sabina";
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
           <Route path="Mother" element={<Mother/>} />
           <Route path="Bekislam" element={<Bekislam/>} />
           <Route path="Indira" element={<Indira/>} />
+          <Route path="Bayastan" element={<Bayastan/>} />
+          <Route path="Sabina" element={<Sabina/>} />
         </Routes>
       </BrowserRouter>
       
