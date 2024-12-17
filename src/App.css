@@ -1,6 +1,12 @@
 h2{
     margin-left: 10px;
 }
+.z{
+    margin-right: 10px;
+}
+.x{
+    margin-left: 10px;
+}
 .container{
     width: 400px;
     height: 800px;
@@ -80,7 +86,7 @@ h2{
 }
 .bayastan{
     width: 150px;
-    height: 180px;
+    height: 250px;
     position: absolute;
     margin-top: 750px;
 }
@@ -90,7 +96,7 @@ h2{
 }
 .sabina{
     width: 150px;
-    height: 180px;
+    height: 250px;
     position: absolute;
     margin-top: 750px;
     margin-left: 256px;
