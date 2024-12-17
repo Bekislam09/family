@@ -1,3 +1,6 @@
+h2{
+    margin-left: 10px;
+}
 .container{
     width: 400px;
     height: 800px;
@@ -77,7 +80,7 @@
 }
 .bayastan{
     width: 150px;
-    height: 140px;
+    height: 180px;
     position: absolute;
     margin-top: 750px;
 }
@@ -87,7 +90,7 @@
 }
 .sabina{
     width: 150px;
-    height: 140px;
+    height: 180px;
     position: absolute;
     margin-top: 750px;
     margin-left: 256px;
