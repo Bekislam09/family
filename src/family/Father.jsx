@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import black from '../images/black.jpg'
 import './Father.css'
 import f1 from '../images/father-img/f1.jpg'
 import f2 from '../images/father-img/f2.jpg'
@@ -22,10 +21,14 @@ const Father = () => {
 
     return (
         <div id='father'>
-            <img id='img-father' src={black} alt=""/>
+            <img style={{borderRadius: '15px'}} id='img-father' src={f1} alt=""/>
             <h1 style={{fontSize: '40px'}} >Мурсалбек</h1>
             <h2 style={{fontSize: '26px'}} >Дата Рождения: 1982:05:19</h2>
             <h1>Описание:отсутсвует</h1>
+            <button onClick={() =>{
+                navigate(-1)
+            }}>Назад</button>
+            <h1 style={{ fontSize: '24px' }} >Галерея</h1>
             <div>
                 <img className='img' src={f1} alt="" />
                 <img className='img' src={f2} alt="" />
@@ -40,9 +43,6 @@ const Father = () => {
                 <img className='img' src={f11} alt="" />
                 <img className='img' src={f12} alt="" />
             </div> 
-            <button onClick={() =>{
-                navigate(-1)
-            }}>Назад</button>
         </div>
     );
 }

@@ -23,6 +23,7 @@ h2{
 .img-grandfather{
     width: 170px;
     height: 160px;
+    object-fit: cover;
 }
 .grandmother{
     width: 150px;
@@ -32,6 +33,8 @@ h2{
 .img-grandmother{
     width: 170px;
     height: 160px;
+    object-fit: cover;
+
 }
 .father{
     width: 150px;
@@ -43,6 +46,8 @@ h2{
 .img-father{
     width: 170px;
     height: 160px;
+    object-fit: cover;
+
 }
 .mother{
     width: 150px;
@@ -54,6 +59,8 @@ h2{
 .img-mother{
     width: 170px;
     height: 160px;
+    object-fit: cover;
+
 }
 .father{
     width: 150px;
@@ -68,6 +75,8 @@ h2{
 .img-bekislam{
     width: 170px;
     height: 160px;
+    object-fit: cover;
+
 }
 .indira{
     width: 150px;
@@ -79,6 +88,8 @@ h2{
 .img-indira{
     width: 170px;
     height: 160px;
+    object-fit: cover;
+
 }
 .bayastan{
     width: 150px;
@@ -89,6 +100,8 @@ h2{
 .img-bayastan{
     width: 170px;
     height: 160px;
+    object-fit: cover;
+
 }
 .sabina{
     width: 150px;
@@ -100,4 +113,5 @@ h2{
 .img-sabina{
     width: 170px;
     height: 160px;
+    object-fit: cover;
 }

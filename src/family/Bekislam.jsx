@@ -8,7 +8,7 @@ const Bekislam = () => {
 
     return (
         <div id='bekislam' >
-            <img id='img-bekislam' src={black} alt="" />
+            <img style={{borderRadius: '15px'}} id='img-bekislam' src={black} alt="" />
             <h1 style={{fontSize: '40px'}} >Бекислам</h1>
             <h2 style={{fontSize: '26px'}} >Дата Рождения: 2009:05:14</h2>
             <h1>Описание:отсутсвует</h1>
