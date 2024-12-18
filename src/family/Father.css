@@ -7,13 +7,9 @@
     font-size: 40px;
     font-size: 10px;
 }
-#btn{
-    width: 58px;
-    height: 23px;
-}
 .img{
-    width: 410px;
-    height: 400px;
-    margin: 30px;
+    width: 170px;
+    height: 160px;
+    margin: 10px;
     object-fit: cover;
 }

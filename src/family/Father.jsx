@@ -26,9 +26,6 @@ const Father = () => {
             <h1 style={{fontSize: '40px'}} >Мурсалбек</h1>
             <h2 style={{fontSize: '26px'}} >Дата Рождения: 1982:05:19</h2>
             <h1>Описание:отсутсвует</h1>
-            <button id='btn' onClick={() =>{
-                navigate(-1)
-            }}>Назад</button>
             <div>
                 <img className='img' src={f1} alt="" />
                 <img className='img' src={f2} alt="" />
@@ -43,6 +40,9 @@ const Father = () => {
                 <img className='img' src={f11} alt="" />
                 <img className='img' src={f12} alt="" />
             </div> 
+            <button onClick={() =>{
+                navigate(-1)
+            }}>Назад</button>
         </div>
     );
 }

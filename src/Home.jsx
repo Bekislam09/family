@@ -20,7 +20,7 @@ const Home = () => {
                     <Link to={'/Grandmother'} >
                     <img className='img-grandmother' src={black} alt="" />
                     </Link>
-                    <h3 className='x' >Токжан</h3  >
+                    <h3 style={{ marginLeft: '14px' }} >Токжан</h3  >
                 </div>
 
                 <div className='father' >
@@ -40,7 +40,7 @@ const Home = () => {
                     <Link to={'/Bekislam'}>
                     <img className='img-bekislam'  src={black} alt=""/>
                     </Link>
-                    <h3 style={{marginLeft: '10px'}} >Бекислам</h3  >
+                    <h3 style={{marginLeft: '13px'}} >Бекислам</h3  >
                 </div>
                 <div className='indira' >
                     <Link to={'/Indira'} >

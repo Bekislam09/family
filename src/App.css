@@ -5,7 +5,7 @@ h2{
     margin-right: 10px;
 }
 .x{
-    margin-left: 10px;
+    margin-left: 12px;
 }
 .container{
     width: 400px;
@@ -47,7 +47,7 @@ h2{
 .mother{
     width: 150px;
     height: 140px;
-    margin-left: 256px;
+    margin-left: 252px;
     margin-top: 250px;
     position: absolute;
 }
@@ -56,10 +56,6 @@ h2{
     height: 160px;
 }
 .father{
-    width: 150px;
-    height: 140px;
-}
-.mother{
     width: 150px;
     height: 140px;
 }
@@ -78,7 +74,7 @@ h2{
     height: 140px;
     position: absolute;
     margin-top: 500px;
-    margin-left: 256px;
+    margin-left: 252px;
 }
 .img-indira{
     width: 170px;
@@ -99,7 +95,7 @@ h2{
     height: 250px;
     position: absolute;
     margin-top: 750px;
-    margin-left: 256px;
+    margin-left: 252px;
 }
 .img-sabina{
     width: 170px;
