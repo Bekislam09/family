@@ -11,3 +11,9 @@
     width: 58px;
     height: 23px;
 }
+.img{
+    width: 410px;
+    height: 400px;
+    margin: 30px;
+    object-fit: cover;
+}
